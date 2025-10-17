@@ -1,8 +1,15 @@
 import React from 'react'
+import NavBar from './components/NavBar'
+import HomeHero from './components/HomeHero'
+import Categories from './components/CategoriesComponent'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <NavBar />
+      <HomeHero />
+      <Categories />
+    </div>
   )
 }
 
